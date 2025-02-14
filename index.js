@@ -18,6 +18,6 @@ app.get('/', (req,res) =>{
 
 
 app.listen (3001, () => {
-   console.log('Servidor runners - Mp');
+   console.log('Servidor runners - validacion correcta');
 });
 
