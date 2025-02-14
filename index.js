@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.get('/', (req,res) =>{ 
-    res.send('Ada - Proceso de Selección Ing. DevOps OK'); 
+    res.send('Ada - Proceso de Selección Ing. DevOps Validando'); 
 }); 
 
 
