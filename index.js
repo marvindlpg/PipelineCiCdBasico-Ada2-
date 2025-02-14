@@ -11,13 +11,13 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true}));
 
 app.get('/', (req,res) =>{ 
-    res.send('Ada - Proceso de Selección Ing. DevOps Validando Mp'); 
+    res.send('Ada - Proceso de Selección Ing. DevOps [Jose Marvin]'); 
 }); 
 
 
 
 
 app.listen (3001, () => {
-   console.log('Servidor runners - validacion correcta');
+   console.log('Servidor runners - [Ariana Michelle]');
 });
 
